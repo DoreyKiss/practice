@@ -5,7 +5,7 @@ description = "practicing some old basic stuff"
 authors = [{ name = "DoreyKiss", email = "dorey.kiss@gmail.com" }]
 readme = "README.md"
 requires-python = "~3.12.10"
-dependencies = []
+dependencies = ["flask (>=3.1.0,<4.0.0)"]
 
 
 [build-system]
