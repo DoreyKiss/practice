@@ -1,0 +1,27 @@
+# .pre-commit-config.yaml
+
+repos:
+  - repo: https://github.com/psf/black
+    rev: 25.1.0              
+    hooks:
+      - id: black
+        language_version: python3.12  
+        args: ['--config', 'pyproject.toml']
+
+  # isort – import sorting
+  - repo: https://github.com/PyCQA/isort
+    rev: 6.0.1
+    hooks:
+      - id: isort
+        name: isort (python)
+        language_version: python3
+
+  # Flake8 – style and error checking
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.2.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - flake8-bugbear
+          - flake8-comprehensions
+        args: [--max-line-length=88]
