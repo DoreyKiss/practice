@@ -2,7 +2,7 @@
 # customize string representations of objects
 
 
-class MyColor():
+class MyColor:
     def __init__(self):
         self.red = 50
         self.green = 75

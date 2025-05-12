@@ -3,7 +3,6 @@
 
 import math
 
-
 # Set up some test data with different math operations
 operations = [
     ["Add", 1, 2, 3, 4, 5],

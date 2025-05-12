@@ -1,4 +1,10 @@
-# Local Python Environment Setup
+# This repository contain exercises I have done during the years.
+
+[advanced python](),
+[decorators](),
+[design patterns](https://www.linkedin.com/learning/python-design-patterns-2021),
+
+### Local Python Environment Setup
 
 this project uses [poetry](https://python-poetry.org/docs/#installing-with-pipx).
 
