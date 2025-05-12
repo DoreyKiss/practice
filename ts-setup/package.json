@@ -1,0 +1,14 @@
+{
+  "name": "ts-func",
+  "version": "1.0.0",
+  "description": "```bash     node --version     nvm install 18     nvm use 18     npm init # will initialise the package for you     npm install -g typescript     tsc --version     tsc init ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
