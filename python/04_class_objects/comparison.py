@@ -1,9 +1,8 @@
-
 # Example file for Advanced Python: Language Features by Joe Marini
 # Use special methods to compare objects to each other
 
 
-class Employee():
+class Employee:
     def __init__(self, fname, lname, level, years_service):
         self.fname = fname
         self.lname = lname

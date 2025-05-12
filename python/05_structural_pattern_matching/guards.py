@@ -1,6 +1,6 @@
-
 # Example file for Advanced Python: Language Features by Joe Marini
 # Using pattern guards to restrict how matches are made
+
 
 # define some geometric shapes
 class Circle:
@@ -8,7 +8,7 @@ class Circle:
         self.radius = radius
 
     def getarea(self):
-        return 3.14 * (self.radius ** 2)
+        return 3.14 * (self.radius**2)
 
 
 class Square:
@@ -29,9 +29,15 @@ class Rectangle:
 
 
 # create a list of some shapes
-shapes = [Circle(5), Square(4), Rectangle(4, 6),
-          Square(7), Circle(9), Rectangle(2, 5),
-          Rectangle(9, 9)]
+shapes = [
+    Circle(5),
+    Square(4),
+    Rectangle(4, 6),
+    Square(7),
+    Circle(9),
+    Rectangle(2, 5),
+    Rectangle(9, 9),
+]
 
 # use pattern matching to process each shape
 # include pattern guards for more detailed processing

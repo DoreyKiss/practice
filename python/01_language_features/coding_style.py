@@ -7,7 +7,7 @@ import platform
 
 
 # two blank lines separate classes from other functions
-class MyClass():
+class MyClass:
     def __init__(self):
         self.prop1 = "my class"
         self.now = datetime.datetime.now

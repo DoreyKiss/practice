@@ -6,7 +6,7 @@
 ctemps = [0, 12, 34, 100]
 
 # Use a comprehension to build a dictionary
-temp_dict = {t: (t * 9/5) + 32 for t in ctemps if t < 100}
+temp_dict = {t: (t * 9 / 5) + 32 for t in ctemps if t < 100}
 print(temp_dict)
 print(temp_dict[12])
 

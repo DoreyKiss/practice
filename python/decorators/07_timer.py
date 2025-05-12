@@ -1,5 +1,6 @@
-from time import perf_counter
 from functools import wraps
+from time import perf_counter
+
 
 def timer(func):
     @wraps(func)
@@ -9,16 +10,19 @@ def timer(func):
         end = perf_counter()
         duration = end - start
         arg = str(*args)
-        print(f'{func.__name__}({arg}) = {result} -> {duration:.8f}s')
+        print(f"{func.__name__}({arg}) = {result} -> {duration:.8f}s")
         return result
+
     return wrapper
+
 
 @timer
 def fib(n):
-    '''Return the nth value from the Fiboanacci sequence'''
+    """Return the nth value from the Fiboanacci sequence"""
     if n < 2:
         return n
     else:
-        return fib(n-1) + fib(n-2)
+        return fib(n - 1) + fib(n - 2)
+
 
 fib(20)

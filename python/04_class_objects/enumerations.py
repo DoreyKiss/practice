@@ -1,7 +1,7 @@
 # Example file for Advanced Python: Language Features by Joe Marini
 # define enumerations using the Enum base class
 
-from enum import Enum, unique, auto
+from enum import Enum, auto, unique
 
 
 @unique

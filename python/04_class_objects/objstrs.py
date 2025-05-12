@@ -2,7 +2,7 @@
 # customize string representations of objects
 
 
-class Person():
+class Person:
     def __init__(self):
         self.fname = "Joe"
         self.lname = "Marini"
@@ -19,7 +19,7 @@ class Person():
     # use bytes to convert the informal string to a bytes object
     def __bytes__(self):
         val = f"Person:{self.fname}:{self.lname}:{self.age}"
-        return bytes(val.encode('utf-8'))
+        return bytes(val.encode("utf-8"))
 
 
 # create a new Person object
