@@ -9,6 +9,10 @@ This repository contains practice exercises completed while following along with
 
 - 🐍 [Python](./python/README.md)  
   Code snippets, exercises, and notes covering Python basics and beyond.
+  
+
+- TS [Typescript](./ts-setup/README.md)  
+  Code snippets, exercises, and notes covering typescript basics and beyond.
 
 ---
 
