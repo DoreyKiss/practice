@@ -1,4 +1,4 @@
-from collections.abc import Iterator, Callable
+from collections.abc import Callable, Iterator
 
 
 # Basic function with input and output type annotations

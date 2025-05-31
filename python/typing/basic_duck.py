@@ -1,4 +1,4 @@
-from collections.abc import Mapping, MutableMapping, Sequence, Iterable
+from collections.abc import Iterable, Mapping, MutableMapping, Sequence
 
 "In typical Python code, many functions that can take a list or a dict as an argument only need their argument"
 
