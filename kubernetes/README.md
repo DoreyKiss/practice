@@ -70,3 +70,17 @@ kubectl get services -A         # List all services in all namespaces
 > The `-A` flag stands for "all namespaces". These commands show both system and user-deployed resources.
 
 ---
+
+## 🧪 6. namespaces.
+
+```bash
+kubectl get namespaces
+kubectl apply -f <filename>
+```
+
+- default
+- kube-node-lease
+- kube-public
+- kube-system
+
+---
